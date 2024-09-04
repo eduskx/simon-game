@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100..900&display=swap');
+
+body {
+  text-align: center;
+  background-color: #16191c;
+  color: #CED4DA;
+  font-family: "Encode Sans SC", sans-serif;
+}
+
+#level-title {
+  font-size: 3rem;
+  margin: 3% 5% 2% 5%;
+}
+
+.container {
+  width: 50%;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  margin: 3px;
+}
+
+.btn:hover {
+  opacity: 0.7;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  cursor: pointer;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.green {
+  background-color: 	#008000;
+  border-radius: 100% 0 0 0;
+}
+
+.red {
+  background-color: #8b0000;
+  border-radius: 0 100% 0 0;
+}
+
+.yellow {
+  background-color: #f0e68c;
+  border-radius: 0 0 0 100%;
+}
+
+.blue {
+  background-color: #4169e1;
+  border-radius: 0 0 100% 0;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.test {
+  border: 1px solid red;
+}
+
+@media (max-width: 450px) {
+  .btn {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 879px) {
+  .container {
+    width: auto;
+  }
+}
+
+.play-row {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 64px;
+}
+
+.play-btn {
+  width: auto;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
+
+.play-btn:hover {
+  cursor: pointer;
+}
+
+h2 {
+  margin: -20px;
+  font-size: 30px;
+}
+
+h2:hover {
+  cursor: pointer;
+}
