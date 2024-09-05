@@ -1,4 +1,4 @@
-# Simon Says Game
+# 👾 Simon Says Game
 
 Welcome to the Simon Says game! This is a simple and fun memory game where you repeat an increasing sequence of colors and sounds. The game gets progressively harder as the sequence length increases.
 
